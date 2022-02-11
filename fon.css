@@ -1,0 +1,295 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("rrr.jpg");
+  
+
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-decoration-line: none;
+    
+}
+.sky {
+
+    width: 100%;
+   position: relative;
+
+
+    
+    
+    
+}
+
+    
+
+
+.sky .menu .d {
+    margin-left: 35px;
+    margin-top: 25px;
+    height:  170px;
+    width: 170px;
+    border-radius: 50%;
+    border-radius: transparent;
+}
+.sky .menu .menum {
+    padding-right: 25px;
+    padding-top: 10px;
+
+
+    
+    height:  40px;
+    width: 40px;
+    border-radius: 50%;
+    border-radius: transparent;
+}
+.menu{
+    display: flex;
+    height: %12;
+    text-align:center;
+    justify-content: space-between;
+
+}
+.sky .menu >ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 490px;
+    padding-top: 5px;;
+}
+.menu ul li{
+    padding-left: 55px;
+    
+   
+}
+.menu ul li a{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(50, 53, 38);
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-decoration-line: none;
+    
+   
+}
+.sky .rit {
+    margin-top: 300px;
+    margin-left: 14%;
+}
+.sky .rit .buttn {
+    display:block;
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(to right, rgb(220, 221, 214),rgb(168, 119, 145));
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    padding-top: 12.5px;
+    cursor: pointer;
+    font-weight: 900;
+    
+    
+    
+}
+.sky  .rit .buttn:hover {
+    border-radius: 50%;
+height: 90px;
+padding-top: 44px;
+
+transition-duration: 500ms;}
+.rit h2{
+    letter-spacing: 2px;
+    background-color: wheat;
+    display: inline;
+}
+p{letter-spacing: 0.5px;
+margin-top: 30px;
+background-color:lightpink;
+color: teal;
+
+display: inline-block;}
+
+}
+.sky .rit div { display: flex;}
+
+
+.sky .rit .txt .cont .box, .sky .rit .txt .tent .box {
+   
+    width: 300px;
+    height: 340px;
+
+border-radius: 12px;
+margin-left: 10px;
+margin-top: 10px;}
+.sky .rit .txt {position:absolute ;
+top: 200px;
+right: 350px;}
+   .sky .rit .txt .cont div {
+    background-image: url("bbb.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+   .sky .rit .txt .cont div +div {
+    background-image: url("11.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;}
+
+    .sky .rit .txt .tent div  {
+        background-image: url("fff.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; cursor: pointer;}
+
+    .sky .rit .txt .tent div +div {
+            background-image: url("ppp.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+             cursor: pointer;}
+
+.sky .rit .txt{ display: flex;}
+.sky .rit .txt .cont .box:hover {
+    width: 370px;
+    height: 370px;
+transition: 500ms all;
+opacity: .5;}
+
+.sky .rit .txt .tent .box:hover {
+    width: 370px;
+    height: 370px;
+transition: 500ms all;
+opacity: .8;}
+
+.sky .rit .txt .cont .box + .box{
+    font-size: x-large;
+    font-weight: 900;
+    color:rgb(75, 100, 72);
+    font-family: fantasy;
+text-align: center;
+letter-spacing: 8px;
+}
+
+.sky .rit .txt .tent .box  {
+    font-size: x-large;
+    font-weight: 900;
+    color:lightgoldenrodyellow;
+    font-family: fantasy;
+text-align: center;
+letter-spacing: 8px;
+}
+.sky .rit .txt .cont .box {
+    font-size: x-large;
+    font-weight: 900;
+    color:rgb(132, 94, 141);
+    font-family: fantasy;
+text-align: center;
+letter-spacing: 8px;
+}
+/*
+.sky .tek .tt {
+   
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+
+  
+
+
+
+}
+.sky .tek {
+    width: 200px;
+    height: 400px;
+    position:absolute;
+    top: 15px;
+    right: 20px;
+    
+}
+.sky .tk { 
+   
+   
+    width: 180px;
+    height: 130px;
+    background-color: antiquewhite;
+    display: none;
+   }
+
+.sky .tk ul li{
+ margin-top: 5px;
+ color: #333;
+ list-style-type: none;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-bottom: 1px solid black;
+letter-spacing: 2px;}
+.sky .tk ul li:hover{
+    
+    color:black;
+    font-size: large;
+
+       
+   }
+
+.sky .tek span::after {
+    content: '';
+    display: inline-block;
+    width: 155px;
+    
+}
+ 
+.sky .tek input:checked+ .tk{
+    display: block;
+
+}
+*/
+.sky .menu ul li a ul  { display: flex;
+flex-direction: column;
+height: 120px;
+width: 150px;
+margin-top: 10px;
+display: none;
+
+
+
+} 
+.sky .menu ul li a ul li { list-style-position: outside;
+    list-style: none;
+    margin-top: 3px;
+    border-bottom: 2px solid lightseagreen;
+    padding: 5px 5px ;
+    padding-right: 100px;
+    margin: 0;
+    background-color: antiquewhite;
+    color: #333;
+    font-size: large;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+    
+}
+.sky .menu ul li a ul li:hover {
+    color: black;
+    font-size: xx-large;
+}
+.sky .menu ul li a:hover ul  {
+    display: block;
+    
+}
+.sky p { width: 600px;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgb(30, 87, 68);
+}
+
+
+
